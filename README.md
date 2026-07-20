@@ -110,13 +110,5 @@ python scripts/predict.py \
     --image path/to/some_lesion.jpg \
     --top-k 3
 ```
-
-## Notes on the source notebook
-
-The uploaded notebook contained three near-duplicate copies of the same
-pipeline, differing only in epochs-per-phase (15/25/20, then 100/100/100,
-then 50/50/50). This project consolidates them into one parameterized
-pipeline defaulting to 50 epochs/phase (the notebook's final version), with
-epoch counts (and everything else) configurable via CLI flags or `config.py`.
 Despite the notebook's filename, it contains no autoencoder code — it is a
 pure EfficientNetB4 classification pipeline, and this project reflects that.
