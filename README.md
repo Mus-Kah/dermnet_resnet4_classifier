@@ -110,5 +110,3 @@ python scripts/predict.py \
     --image path/to/some_lesion.jpg \
     --top-k 3
 ```
-Despite the notebook's filename, it contains no autoencoder code — it is a
-pure EfficientNetB4 classification pipeline, and this project reflects that.
